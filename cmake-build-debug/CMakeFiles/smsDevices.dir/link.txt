@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/smsDevices.dir/main.cpp.o CMakeFiles/smsDevices.dir/serial.cpp.o  -o smsDevices 
