@@ -209,6 +209,14 @@ void serial::serialPrintf (const int fd, const char *message, ...)
 
     serialPuts (fd, buffer) ;
 }
+const char * serial::serialGetStr(const int fd){
+    char buf[512];
+    std::stringstream msg;
+    while (read(fd,buf, sizeof(buf)) >0 ){
+        msg << buf;
+    }
+    return msg.str().c_str();
+}
 int serial::serialDataAvail (const int fd)
 {
     int result ;

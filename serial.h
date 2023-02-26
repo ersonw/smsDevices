@@ -19,6 +19,8 @@ public:
     static int serialGetchar (const int fd);
     static void serialFlush (const int fd);
     static std::list<std::string> getComList();
+
+    static const char * serialGetStr(const int fd);
 };
 
 
