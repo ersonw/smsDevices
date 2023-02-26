@@ -3,20 +3,25 @@
 //
 
 #include "serial.h"
-#include <stdio.h>
-
+#include <cstdlib>
+#include <memory>
+#include <string>
 #include <fcntl.h>
 #include <termios.h>
 #include <unistd.h>
 #include <stdint.h>
 #include <sys/ioctl.h>
-#include <stdarg.h>
 #include <list>
 #include <string>
 #include <dirent.h>
 #include <linux/serial.h>
 #include <cstring>
 #include <sys/stat.h>
+#include <cstdlib>
+#include <cstdio>
+#include <cstdarg>
+#include <sstream>
+
 
 using namespace std;
 static string get_driver(const string& tty) {
@@ -79,7 +84,7 @@ static void probe_serial8250_comports(list<string>& comList, list<string> comLis
     }
 }
 
-list<string> getComList() {
+list<string> serial::getComList() {
     int n;
     struct dirent **namelist;
     list<string> comList;
@@ -113,6 +118,7 @@ list<string> getComList() {
     // Return the lsit of detected comports
     return comList;
 }
+
 int serial::serialOpen (const char *device, const int baud)
 {
     struct termios options ;
@@ -215,10 +221,8 @@ int serial::serialDataAvail (const int fd)
 int serial::serialGetchar (const int fd)
 {
     uint8_t x ;
-
     if (read (fd, &x, 1) != 1)
         return -1 ;
-
     return ((int)x) & 0xFF ;
 }
 void serial::serialFlush (const int fd)

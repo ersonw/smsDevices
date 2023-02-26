@@ -1,36 +1,8 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
 #IncludeRegexComplain: ^$
 
 #IncludeRegexTransform: 
-
-/tmp/tmp.jC8tGcxQmT/main.cpp
-stdlib.h
--
-dirent.h
--
-stdio.h
--
-sys/types.h
--
-sys/stat.h
--
-unistd.h
--
-string.h
--
-fcntl.h
--
-termios.h
--
-sys/ioctl.h
--
-linux/serial.h
--
-iostream
--
-list
--
 

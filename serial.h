@@ -4,7 +4,8 @@
 
 #ifndef SMSDEVICES_SERIAL_H
 #define SMSDEVICES_SERIAL_H
-
+#include <string>
+#include <list>
 
 class serial {
 
@@ -17,6 +18,7 @@ public:
     static int serialDataAvail (const int fd);
     static int serialGetchar (const int fd);
     static void serialFlush (const int fd);
+    static std::list<std::string> getComList();
 };
 
 
