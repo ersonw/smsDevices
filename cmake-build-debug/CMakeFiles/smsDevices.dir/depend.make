@@ -3,7 +3,11 @@
 
 CMakeFiles/smsDevices.dir/main.cpp.o: ../main.cpp
 CMakeFiles/smsDevices.dir/main.cpp.o: ../serial.h
+CMakeFiles/smsDevices.dir/main.cpp.o: ../serial_c.h
 
 CMakeFiles/smsDevices.dir/serial.cpp.o: ../serial.cpp
 CMakeFiles/smsDevices.dir/serial.cpp.o: ../serial.h
+
+CMakeFiles/smsDevices.dir/usb_serial.cpp.o: ../usb_serial.cpp
+CMakeFiles/smsDevices.dir/usb_serial.cpp.o: ../usb_serial.h
 

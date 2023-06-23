@@ -74,11 +74,11 @@
       </Unit>
       <Unit filename="/tmp/tmp.jC8tGcxQmT/serial.cpp">
       </Unit>
-      <Unit filename="/tmp/tmp.jC8tGcxQmT/serial_c.c">
+      <Unit filename="/tmp/tmp.jC8tGcxQmT/usb_serial.cpp">
       </Unit>
       <Unit filename="/tmp/tmp.jC8tGcxQmT/serial.h">
       </Unit>
-      <Unit filename="/tmp/tmp.jC8tGcxQmT/serial_c.h">
+      <Unit filename="/tmp/tmp.jC8tGcxQmT/usb_serial.h">
       </Unit>
       <Unit filename="/tmp/tmp.jC8tGcxQmT/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />

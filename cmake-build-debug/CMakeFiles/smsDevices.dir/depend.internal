@@ -4,6 +4,10 @@
 CMakeFiles/smsDevices.dir/main.cpp.o
  /tmp/tmp.jC8tGcxQmT/main.cpp
  /tmp/tmp.jC8tGcxQmT/serial.h
+ /tmp/tmp.jC8tGcxQmT/serial_c.h
 CMakeFiles/smsDevices.dir/serial.cpp.o
  /tmp/tmp.jC8tGcxQmT/serial.cpp
  /tmp/tmp.jC8tGcxQmT/serial.h
+CMakeFiles/smsDevices.dir/usb_serial.cpp.o
+ /tmp/tmp.jC8tGcxQmT/usb_serial.cpp
+ /tmp/tmp.jC8tGcxQmT/usb_serial.h

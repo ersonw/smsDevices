@@ -98,41 +98,41 @@ CMakeFiles/smsDevices.dir/serial.cpp.o.provides: CMakeFiles/smsDevices.dir/seria
 
 CMakeFiles/smsDevices.dir/serial.cpp.o.provides.build: CMakeFiles/smsDevices.dir/serial.cpp.o
 
-CMakeFiles/smsDevices.dir/serial_c.c.o: CMakeFiles/smsDevices.dir/flags.make
-CMakeFiles/smsDevices.dir/serial_c.c.o: ../serial_c.c
+CMakeFiles/smsDevices.dir/usb_serial.cpp.o: CMakeFiles/smsDevices.dir/flags.make
+CMakeFiles/smsDevices.dir/usb_serial.cpp.o: ../usb_serial.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/tmp.jC8tGcxQmT/cmake-build-debug/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/smsDevices.dir/serial_c.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/smsDevices.dir/serial_c.c.o   -c /tmp/tmp.jC8tGcxQmT/serial_c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/smsDevices.dir/usb_serial.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/smsDevices.dir/usb_serial.cpp.o -c /tmp/tmp.jC8tGcxQmT/usb_serial.cpp
 
-CMakeFiles/smsDevices.dir/serial_c.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/smsDevices.dir/serial_c.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /tmp/tmp.jC8tGcxQmT/serial_c.c > CMakeFiles/smsDevices.dir/serial_c.c.i
+CMakeFiles/smsDevices.dir/usb_serial.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/smsDevices.dir/usb_serial.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/tmp.jC8tGcxQmT/usb_serial.cpp > CMakeFiles/smsDevices.dir/usb_serial.cpp.i
 
-CMakeFiles/smsDevices.dir/serial_c.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/smsDevices.dir/serial_c.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /tmp/tmp.jC8tGcxQmT/serial_c.c -o CMakeFiles/smsDevices.dir/serial_c.c.s
+CMakeFiles/smsDevices.dir/usb_serial.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/smsDevices.dir/usb_serial.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/tmp.jC8tGcxQmT/usb_serial.cpp -o CMakeFiles/smsDevices.dir/usb_serial.cpp.s
 
-CMakeFiles/smsDevices.dir/serial_c.c.o.requires:
-.PHONY : CMakeFiles/smsDevices.dir/serial_c.c.o.requires
+CMakeFiles/smsDevices.dir/usb_serial.cpp.o.requires:
+.PHONY : CMakeFiles/smsDevices.dir/usb_serial.cpp.o.requires
 
-CMakeFiles/smsDevices.dir/serial_c.c.o.provides: CMakeFiles/smsDevices.dir/serial_c.c.o.requires
-	$(MAKE) -f CMakeFiles/smsDevices.dir/build.make CMakeFiles/smsDevices.dir/serial_c.c.o.provides.build
-.PHONY : CMakeFiles/smsDevices.dir/serial_c.c.o.provides
+CMakeFiles/smsDevices.dir/usb_serial.cpp.o.provides: CMakeFiles/smsDevices.dir/usb_serial.cpp.o.requires
+	$(MAKE) -f CMakeFiles/smsDevices.dir/build.make CMakeFiles/smsDevices.dir/usb_serial.cpp.o.provides.build
+.PHONY : CMakeFiles/smsDevices.dir/usb_serial.cpp.o.provides
 
-CMakeFiles/smsDevices.dir/serial_c.c.o.provides.build: CMakeFiles/smsDevices.dir/serial_c.c.o
+CMakeFiles/smsDevices.dir/usb_serial.cpp.o.provides.build: CMakeFiles/smsDevices.dir/usb_serial.cpp.o
 
 # Object files for target smsDevices
 smsDevices_OBJECTS = \
 "CMakeFiles/smsDevices.dir/main.cpp.o" \
 "CMakeFiles/smsDevices.dir/serial.cpp.o" \
-"CMakeFiles/smsDevices.dir/serial_c.c.o"
+"CMakeFiles/smsDevices.dir/usb_serial.cpp.o"
 
 # External object files for target smsDevices
 smsDevices_EXTERNAL_OBJECTS =
 
 smsDevices: CMakeFiles/smsDevices.dir/main.cpp.o
 smsDevices: CMakeFiles/smsDevices.dir/serial.cpp.o
-smsDevices: CMakeFiles/smsDevices.dir/serial_c.c.o
+smsDevices: CMakeFiles/smsDevices.dir/usb_serial.cpp.o
 smsDevices: CMakeFiles/smsDevices.dir/build.make
 smsDevices: CMakeFiles/smsDevices.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable smsDevices"
@@ -144,7 +144,7 @@ CMakeFiles/smsDevices.dir/build: smsDevices
 
 CMakeFiles/smsDevices.dir/requires: CMakeFiles/smsDevices.dir/main.cpp.o.requires
 CMakeFiles/smsDevices.dir/requires: CMakeFiles/smsDevices.dir/serial.cpp.o.requires
-CMakeFiles/smsDevices.dir/requires: CMakeFiles/smsDevices.dir/serial_c.c.o.requires
+CMakeFiles/smsDevices.dir/requires: CMakeFiles/smsDevices.dir/usb_serial.cpp.o.requires
 .PHONY : CMakeFiles/smsDevices.dir/requires
 
 CMakeFiles/smsDevices.dir/clean:

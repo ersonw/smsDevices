@@ -162,29 +162,29 @@ serial.cpp.s:
 	$(MAKE) -f CMakeFiles/smsDevices.dir/build.make CMakeFiles/smsDevices.dir/serial.cpp.s
 .PHONY : serial.cpp.s
 
-serial_c.o: serial_c.c.o
-.PHONY : serial_c.o
+usb_serial.o: usb_serial.cpp.o
+.PHONY : usb_serial.o
 
 # target to build an object file
-serial_c.c.o:
-	$(MAKE) -f CMakeFiles/smsDevices.dir/build.make CMakeFiles/smsDevices.dir/serial_c.c.o
-.PHONY : serial_c.c.o
+usb_serial.cpp.o:
+	$(MAKE) -f CMakeFiles/smsDevices.dir/build.make CMakeFiles/smsDevices.dir/usb_serial.cpp.o
+.PHONY : usb_serial.cpp.o
 
-serial_c.i: serial_c.c.i
-.PHONY : serial_c.i
+usb_serial.i: usb_serial.cpp.i
+.PHONY : usb_serial.i
 
 # target to preprocess a source file
-serial_c.c.i:
-	$(MAKE) -f CMakeFiles/smsDevices.dir/build.make CMakeFiles/smsDevices.dir/serial_c.c.i
-.PHONY : serial_c.c.i
+usb_serial.cpp.i:
+	$(MAKE) -f CMakeFiles/smsDevices.dir/build.make CMakeFiles/smsDevices.dir/usb_serial.cpp.i
+.PHONY : usb_serial.cpp.i
 
-serial_c.s: serial_c.c.s
-.PHONY : serial_c.s
+usb_serial.s: usb_serial.cpp.s
+.PHONY : usb_serial.s
 
 # target to generate assembly for a file
-serial_c.c.s:
-	$(MAKE) -f CMakeFiles/smsDevices.dir/build.make CMakeFiles/smsDevices.dir/serial_c.c.s
-.PHONY : serial_c.c.s
+usb_serial.cpp.s:
+	$(MAKE) -f CMakeFiles/smsDevices.dir/build.make CMakeFiles/smsDevices.dir/usb_serial.cpp.s
+.PHONY : usb_serial.cpp.s
 
 # Help Target
 help:
@@ -201,9 +201,9 @@ help:
 	@echo "... serial.o"
 	@echo "... serial.i"
 	@echo "... serial.s"
-	@echo "... serial_c.o"
-	@echo "... serial_c.i"
-	@echo "... serial_c.s"
+	@echo "... usb_serial.o"
+	@echo "... usb_serial.i"
+	@echo "... usb_serial.s"
 .PHONY : help
 
 

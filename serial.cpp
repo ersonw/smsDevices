@@ -21,6 +21,7 @@
 #include <cstdio>
 #include <cstdarg>
 #include <sstream>
+#include <iostream>
 
 
 using namespace std;
@@ -52,7 +53,7 @@ static void register_comport( list<string>& comList, list<string>& comList8250, 
     // Skip devices without a driver
     if (driver.size() > 0) {
         string devfile = string("/dev/") + basename(dir.c_str());
-
+//        cout << driver << endl;
         // Put serial8250-devices in a seperate list
         if (driver == "serial8250") {
             comList8250.push_back(devfile);

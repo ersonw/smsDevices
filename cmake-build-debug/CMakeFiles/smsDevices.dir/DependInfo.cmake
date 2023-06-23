@@ -1,16 +1,12 @@
 # The set of languages for which implicit dependencies are needed:
 SET(CMAKE_DEPENDS_LANGUAGES
-  "C"
   "CXX"
   )
 # The set of files for implicit dependencies of each language:
-SET(CMAKE_DEPENDS_CHECK_C
-  "/tmp/tmp.jC8tGcxQmT/serial_c.c" "/tmp/tmp.jC8tGcxQmT/cmake-build-debug/CMakeFiles/smsDevices.dir/serial_c.c.o"
-  )
-SET(CMAKE_C_COMPILER_ID "GNU")
 SET(CMAKE_DEPENDS_CHECK_CXX
   "/tmp/tmp.jC8tGcxQmT/main.cpp" "/tmp/tmp.jC8tGcxQmT/cmake-build-debug/CMakeFiles/smsDevices.dir/main.cpp.o"
   "/tmp/tmp.jC8tGcxQmT/serial.cpp" "/tmp/tmp.jC8tGcxQmT/cmake-build-debug/CMakeFiles/smsDevices.dir/serial.cpp.o"
+  "/tmp/tmp.jC8tGcxQmT/usb_serial.cpp" "/tmp/tmp.jC8tGcxQmT/cmake-build-debug/CMakeFiles/smsDevices.dir/usb_serial.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

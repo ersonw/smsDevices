@@ -6,3 +6,37 @@
 
 #IncludeRegexTransform: 
 
+/tmp/tmp.jC8tGcxQmT/main.cpp
+iostream
+-
+list
+-
+cstdio
+-
+cstring
+-
+unistd.h
+-
+cstdlib
+-
+sstream
+-
+serial.h
+/tmp/tmp.jC8tGcxQmT/serial.h
+serial_c.h
+/tmp/tmp.jC8tGcxQmT/serial_c.h
+
+/tmp/tmp.jC8tGcxQmT/serial.h
+string
+-
+list
+-
+
+/tmp/tmp.jC8tGcxQmT/serial_c.h
+
+/tmp/tmp.jC8tGcxQmT/usb_serial.cpp
+usb_serial.h
+/tmp/tmp.jC8tGcxQmT/usb_serial.h
+
+/tmp/tmp.jC8tGcxQmT/usb_serial.h
+
